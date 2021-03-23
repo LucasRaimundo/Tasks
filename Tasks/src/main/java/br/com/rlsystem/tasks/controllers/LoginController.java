@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class LoginController {
 	@Autowired
 	LoginService loginService;
+	//teste
 	
 	@RequestMapping("/login")
 	public String login() {
