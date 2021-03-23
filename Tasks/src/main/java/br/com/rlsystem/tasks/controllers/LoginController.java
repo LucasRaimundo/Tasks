@@ -20,7 +20,7 @@ public class LoginController {
 	@Autowired
 	LoginService loginService;
 	//teste
-	//teste by:Alan.S.C
+	//teste by:Alan.SC
 	@RequestMapping("/login")
 	public String login() {
 		return "login";
